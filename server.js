@@ -32,7 +32,7 @@ app.get("/aboutus",(req, res)=>{
     );
 });
 
-/* app.get("/login",(req, res)=>{
+ app.get("/login",(req, res)=>{
     res.send(
             "<h1>Vijay Sales </h1>"
             + "<h3>Login</h3>"
@@ -44,7 +44,7 @@ app.get("/aboutus",(req, res)=>{
             +"<button>login</button>"
             + "</form>"
     );
-}); */
-
+});
+ 
 var server=app.listen(9000);
 console.log("Vijay Sales Online shopping running on port 9000");
